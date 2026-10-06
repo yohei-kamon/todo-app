@@ -38,7 +38,7 @@ new #[Title('Todo一覧')] class extends Component {
     @else
         <flux:table>
             <flux:table.columns>
-                <flux:table.column>Todo</flux:table.column>
+                <flux:table.column>やること</flux:table.column>
                 <flux:table.column>期限</flux:table.column>
                 <flux:table.column>カテゴリ</flux:table.column>
                 <flux:table.column>作成者</flux:table.column>

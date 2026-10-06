@@ -38,7 +38,7 @@ class Todo extends Model
     }
 
     /**
-     * このイベントを作ったユーザー。
+     * このTodoを作ったユーザー。
      *
      * @return BelongsTo<User, $this>
      */
@@ -48,7 +48,7 @@ class Todo extends Model
     }
 
     /**
-     * ログイン中のユーザーが作ったイベントか。
+     * ログイン中のユーザーが作ったTodoか。
      */
     public function isOwnedBy(?User $user): bool
     {
